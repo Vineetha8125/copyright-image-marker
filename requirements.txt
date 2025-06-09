@@ -1,0 +1,14 @@
+# Core packages
+pandas
+tqdm
+
+# OCR and image handling
+pytesseract
+Pillow
+pdf2image
+
+# Matching engine
+rapidfuzz
+
+# Optional: for web UI
+streamlit
