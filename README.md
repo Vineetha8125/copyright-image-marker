@@ -1,10 +1,10 @@
-### 📌 Project Title:
+###Project Title:
 
 **Scalable Matching of Copyright Registration Images Using AI and OCR**
 
 ---
 
-### 🧠 Objective
+### Objective
 
 This project demonstrates a **scalable, AI-assisted method** to retrieve and match copyright registration images based on metadata from a spreadsheet. The system uses **optical character recognition (OCR)** and **fuzzy matching** to link scanned images (e.g., `.webp` files) to corresponding registration entries.
 
@@ -32,7 +32,7 @@ copyright-image-marker/
 
 ---
 
-### 🔄 Method Summary
+### Method Summary
 
 1. **Preprocessing**:
 
@@ -57,7 +57,7 @@ copyright-image-marker/
 
 ---
 
-### ✅ Technologies Used
+### Technologies Used
 
 * Python 3
 * `pytesseract` for OCR
@@ -67,7 +67,7 @@ copyright-image-marker/
 
 ---
 
-### ⚠️ Note on Matching
+###  Note on Matching
 
 > While the system successfully extracted and scored image text, the images and CSV used in this demo came from different sources.
 > As a result, **no true registration number matches** were found.
@@ -75,7 +75,7 @@ copyright-image-marker/
 
 ---
 
-### 🚀 How to Run
+### How to Run
 
 1. Install dependencies:
 
@@ -94,7 +94,7 @@ copyright-image-marker/
 
 ---
 
-### 🖼 Sample Output
+### Sample Output
 
 Found in `output/matched_results.csv` and `output/matched_images/`
 These demonstrate successful image text extraction and ranked match confidence.
